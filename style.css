@@ -5,48 +5,56 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  color: #292e32;
+  color: #0b341d;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+header {
+  background-color: #27ae60;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  padding: 10px 0;
+  width: 100%;
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  background: rgb(238, 174, 202);
-  background: radial-gradient(
-    circle,
-    rgba(238, 174, 202, 1) 0%,
-    rgba(148, 187, 233, 0.6573223039215687) 100%
-  );
-  color: #fff;
-  width: 100%;
-  margin-top: 10px;
-  padding: 5px;
-  border-radius: 30px;
+  margin-top: 50px;
 }
 
 .question-card {
   display: flex;
+  justify-content: center;
   flex-direction: column;
-  justify-content: flex-end;
-}
-
-button {
-  border: none;
-  background: none;
+  background-color: #7dcea0;
+  margin-top: 30px;
+  border-radius: 8px;
+  max-width: 350px;
 }
 
 ul {
+  display: flex;
+  flex-direction: row;
   list-style-type: none;
-  background-color: #dde3cc;
+  background-color: #e5e4e2;
+  color: #292e32;
+  border-radius: 5px;
+  padding: 8px;
+  max-width: 100%;
+}
+
+.tag-box {
+  margin: 4px;
+}
+
+.tags {
+  font-size: 15px;
+  margin-right: 10px;
 }
 
 .bookmarks {
