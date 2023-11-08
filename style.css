@@ -52,30 +52,35 @@ main {
   top: -5px;
 }
 
-.reveal {
-  display: flex;
-  justify-content: space-around;
-  font: inherit;
+button {
+  justify-content: center;
+  align-self: center;
   font-size: 0.9rem;
   color: #fff;
   background: #0b341d;
   border: none;
   border-radius: 1.2rem;
+  box-shadow: 0px 0px 10px -0.2px #0b341d;
   cursor: pointer;
-  margin: 20px;
+  margin-top: 30px;
   padding: 8px;
+  width: 125px;
+  height: 35px;
 }
 
 .answer {
+  visibility: hidden;
+  align-self: center;
+  margin: 0px;
 }
 
 ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-  background-color: #e5e4e2;
-  color: #292e32;
-  border-radius: 5px;
+  background-color: #56a979;
+  color: #fff;
+  border-radius: 8px;
   padding: 8px;
   max-width: 100%;
 }
