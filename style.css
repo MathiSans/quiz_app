@@ -10,11 +10,20 @@ body {
   justify-content: center;
 }
 
-header {
-  background-color: #27ae60;
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.3rem;
   color: #fff;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  margin: 0 30px;
+}
+
+header {
+  background-color: #27ae60;
   position: fixed;
   display: flex;
   justify-content: center;
@@ -35,6 +44,29 @@ main {
   margin-top: 30px;
   border-radius: 8px;
   max-width: 350px;
+}
+
+.bookmarks {
+  position: relative;
+  left: 310px;
+  top: -5px;
+}
+
+.reveal {
+  display: flex;
+  justify-content: space-around;
+  font: inherit;
+  font-size: 0.9rem;
+  color: #fff;
+  background: #0b341d;
+  border: none;
+  border-radius: 1.2rem;
+  cursor: pointer;
+  margin: 20px;
+  padding: 8px;
+}
+
+.answer {
 }
 
 ul {
