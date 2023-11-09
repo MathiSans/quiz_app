@@ -38,22 +38,6 @@ h2 {
   margin: 0 30px;
 }
 
-.question-card {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background-color: #7dcea0;
-  margin-top: 30px;
-  border-radius: 8px;
-  max-width: 350px;
-}
-
-.bookmarks {
-  position: relative;
-  left: 310px;
-  top: -5px;
-}
-
 button {
   justify-content: center;
   align-self: center;
@@ -70,12 +54,6 @@ button {
   height: 35px;
 }
 
-.answer {
-  visibility: hidden;
-  align-self: center;
-  margin: 0px;
-}
-
 ul {
   display: flex;
   flex-direction: row;
@@ -85,6 +63,28 @@ ul {
   border-radius: 8px;
   padding: 8px;
   max-width: 100%;
+}
+
+.question-card {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #7dcea0;
+  margin-top: 30px;
+  border-radius: 8px;
+  max-width: 350px;
+}
+
+.bookmarks {
+  position: relative;
+  left: 310px;
+  top: -5px;
+}
+
+.answer {
+  visibility: hidden;
+  align-self: center;
+  margin: 0px;
 }
 
 .tag-box {
