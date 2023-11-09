@@ -1,0 +1,126 @@
+@import "global.css";
+
+header {
+  background: #27ae60;
+  box-shadow: 0px 10px 30px -3px #eefff5;
+  margin-top: 0;
+  padding: 10px 0;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  color: #eefff5;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  /* justify-content: center; */
+  margin-top: 56px;
+}
+
+nav {
+  margin-top: 30px;
+  background-color: #27ae60;
+  padding: 10px 0;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+card {
+  background: #56a979;
+  border-radius: 15px;
+  margin-top: 50px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  color: #eefff5;
+  background: #176839;
+  animation: pulse 2s infinite;
+  box-shadow: 0px 0px 10px -0.5px #176839;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 30px;
+  padding: 8px;
+  width: 125px;
+  height: 35px;
+  justify-content: center;
+  align-self: center;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  50% {
+    background: #0e3921;
+  }
+}
+
+ul {
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.icons {
+  width: 28px;
+  margin: 0 38px 0 38px;
+}
+
+.question {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #eefff5;
+  background: #176839;
+  box-shadow: 0px 0px 20px -0.2px #176839;
+  border-radius: 8px;
+  margin: 10px 45px;
+  padding: 40px;
+}
+
+.bookmarks {
+  position: relative;
+  width: 32px;
+  left: 320px;
+  top: -4px;
+}
+
+.answer {
+  visibility: hidden;
+  align-self: center;
+  margin: 0px;
+}
+
+.tag-box {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tags {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #1e8449;
+  background: #eefff5;
+  box-shadow: 0px 0px 10px -0.2px #1e8449;
+  border-radius: 10px;
+  margin-right: 8px;
+  padding: 3px 8px;
+}
