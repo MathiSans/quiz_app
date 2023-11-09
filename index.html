@@ -3,110 +3,100 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Quizzin – Quiz App</title>
   </head>
 
   <body>
     <header>
-      <div>
-        <h1>Quizzin</h1>
-      </div>
+      <h1>Quizzin</h1>
     </header>
 
     <main>
-      <card class="question-card">
-        <img
-          class="bookmarks"
-          alt="bookmark icon"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
-        />
+        <nav class="menu" alt="navigation menu">
+          <div class="menu-box">
+          <img
+            class="icons"
+            alt="homepage"
+            src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-1024.png"
+          />
 
-        <h2 class="question">What property flips the axis in flexbox?</h2>
-        <button alt="reveal answer">Show Answer</button>
-        <p class="answer">flex-direction</p>
-        <div class="tag-box">
-          <ul>
-            <li class="tags">#htmls</li>
-            <li class="tags">#flexbox</li>
-            <li class="tags">#css</li>
-          </ul>
-        </div>
-      </card>
+          <img
+            class="icons"
+            alt="bookmarked questions"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
+          />
 
-      <card class="question-card">
-        <img
-          class="bookmarks"
-          alt="bookmark icon"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
-        />
-        <h2 class="question">Is :hover a selector or a pseudo-selector?</h2>
-        <button class="reveal">Show Answer</button>
-        <p class="answer">pseudo-selector</p>
-        <div class="tag-box">
-          <ul>
-            <li class="tags">#css</li>
-            <li class="tags">#selector</li>
-            <li class="tags">#pseudo-selector</li>
-          </ul>
-        </div>
-      </card>
+          <img
+            class="icons"
+            alt="user profile"
+            src="https://static-00.iconduck.com/assets.00/profile-icon-512x512-3blkqcn4.png"
+          />
+        </nav>
+      </div>
 
-      <card class="question-card">
-        <img
-          class="bookmarks"
-          alt="bookmark icon"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
-        />
-        <h2 class="question">Is :hover a selector or a pseudo-selector?</h2>
-        <button class="reveal">Show Answer</button>
-        <p class="answer">pseudo-selector</p>
-        <div class="tag-box">
-          <ul>
-            <li class="tags">#css</li>
-            <li class="tags">#selector</li>
-            <li class="tags">#pseudo-selector</li>
-          </ul>
-        </div>
-      </card>
+      <section class="card-background">
+        <card>
+          <img
+            class="bookmarks"
+            alt="bookmark-icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
+          />
+          <p class="question">What property flips the axis in flexbox?</p>
+          <button alt="reveal-answer">Show Answer</button>
+          <p class="answer">flex-direction</p>
 
-      <card class="question-card">
-        <img
-          class="bookmarks"
-          alt="bookmark icon"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
-        />
-        <h2 class="question">Is :hover a selector or a pseudo-selector?</h2>
-        <button class="reveal">Show Answer</button>
-        <p class="answer">pseudo-selector</p>
-        <div class="tag-box">
-          <ul>
-            <li class="tags">#css</li>
-            <li class="tags">#selector</li>
-            <li class="tags">#pseudo-selector</li>
-          </ul>
-        </div>
-      </card>
+          <div class="tag-box">
+            <ul>
+              <li class="tags">#htmls</li>
+              <li class="tags">#flexbox</li>
+              <li class="tags">#css</li>
+            </ul>
+          </div>
+        </card>
+      </section>
 
-      <nav class="menu" alt="navigation menu">
-        <img
-          class="icons"
-          alt="homepage"
-          src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-1024.png"
-        />
+      <section class="card-background">
+        <card class="question-card">
+          <img
+            class="bookmarks"
+            alt="bookmark-icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
+          />
+          <p class="question">Is <span>:hover</span> a selector or a pseudo-selector?</p>
+          <button class="reveal-answer">Show Answer</button>
+          <p class="answer">pseudo-selector</p>
 
-        <img
-          class="icons"
-          alt="bookmarked questions"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
-        />
+          <div class="tag-box">
+            <ul>
+              <li class="tags">#css</li>
+              <li class="tags">#selector</li>
+              <li class="tags">#pseudo-selector</li>
+            </ul>
+          </div>
+        </card>
+      </section>
 
-        <img
-          class="icons"
-          alt="user profile"
-          src="https://static-00.iconduck.com/assets.00/profile-icon-512x512-3blkqcn4.png"
-        />
-      </nav>
+      <section class="card-background">
+        <card class="question-card">
+          <img
+            class="bookmarks"
+            alt="bookmark-icon"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/OOjs_UI_icon_bookmark.svg/1920px-OOjs_UI_icon_bookmark.svg.png"
+          />
+          <p class="question">Is :hover a selector or a pseudo-selector?</p>
+          <button class="reveal-asnwer">Show Answer</button>
+          <p class="answer">pseudo-selector</p>
+
+          <div class="tag-box">
+            <ul>
+              <li class="tags">#css</li>
+              <li class="tags">#selector</li>
+              <li class="tags">#pseudo-selector</li>
+            </ul>
+          </div>
+        </card>
+      </section>
     </main>
   </body>
 </html>
