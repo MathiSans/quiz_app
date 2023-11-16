@@ -1,7 +1,7 @@
 @import "css/global.css";
 
 header {
-  background: #27ae60;
+  background: #176839;
   box-shadow: 0px 10px 30px -3px #eefff5;
   margin-top: 0;
   padding: 10px 0;
@@ -20,25 +20,24 @@ h1 {
 }
 
 main {
-  display: flex;
-  flex-direction: column-reverse;
-  /* justify-content: center; */
   margin-top: 56px;
 }
 
 nav {
   margin-top: 30px;
-  background-color: #27ae60;
+  background: #176839;
   padding: 10px 0;
   width: 100%;
   bottom: 0;
   left: 0;
   position: fixed;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   z-index: 1;
 }
-
+img {
+  margin: ;
+}
 card {
   background: #56a979;
   border-radius: 15px;
@@ -80,8 +79,9 @@ ul {
 }
 
 .icons {
-  width: 28px;
+  width: 25px;
   margin: 0 38px 0 38px;
+  padding: 5px;
 }
 
 .question {
