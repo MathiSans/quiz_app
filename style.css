@@ -21,13 +21,13 @@ h1 {
 
 main {
   margin-top: 56px;
+  margin-bottom: 85px;
 }
 
 nav {
-  margin-top: 30px;
   background: #176839;
-  padding: 10px 0;
   width: 100%;
+  padding: 10px 0;
   bottom: 0;
   left: 0;
   position: fixed;
@@ -35,13 +35,16 @@ nav {
   justify-content: center;
   z-index: 1;
 }
-img {
-  margin: ;
+.icons {
+  background-color: #eefff5;
+  box-shadow: 0px 0px 10px 0px #0e3921;
+  border-radius: 8px;
 }
+
 card {
   background: #56a979;
   border-radius: 15px;
-  margin-top: 50px;
+  margin-top: 30px;
   max-width: 360px;
   display: flex;
   flex-direction: column;
@@ -76,12 +79,6 @@ ul {
   display: flex;
   flex-direction: row;
   list-style-type: none;
-}
-
-.icons {
-  width: 25px;
-  margin: 0 38px 0 38px;
-  padding: 5px;
 }
 
 .question {
@@ -123,4 +120,10 @@ ul {
   border-radius: 10px;
   margin-right: 8px;
   padding: 3px 8px;
+}
+
+.icons {
+  width: 25px;
+  margin: 0 38px 0 38px;
+  padding: 5px;
 }
