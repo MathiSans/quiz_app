@@ -1,6 +1,10 @@
 @import "css/global.css";
 
-header {
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  color: #eefff5;
   background: #176839;
   box-shadow: 0px 10px 30px -3px #eefff5;
   margin-top: 0;
@@ -10,13 +14,6 @@ header {
   display: flex;
   justify-content: center;
   z-index: 1;
-}
-
-h1 {
-  font-family: "Courier New", Courier, monospace;
-  color: #eefff5;
-  text-transform: uppercase;
-  letter-spacing: 0.3rem;
 }
 
 main {
@@ -88,7 +85,7 @@ ul {
   background: #176839;
   box-shadow: 0px 0px 20px -0.2px #176839;
   border-radius: 8px;
-  margin: 10px 45px;
+  margin: 5px 20px 5px 20px;
   padding: 40px;
 }
 
@@ -100,13 +97,12 @@ ul {
 }
 
 .answer {
-  visibility: hidden;
+  /* visibility: hidden; */
   align-self: center;
-  margin: 0px;
+  margin: 10px 0px;
 }
 
 .tag-box {
-  margin-top: 10px;
   display: flex;
   justify-content: flex-start;
 }
