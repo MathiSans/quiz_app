@@ -1,0 +1,8 @@
+card {
+  background: #56a979;
+  border-radius: 15px;
+  margin-top: 30px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+}
