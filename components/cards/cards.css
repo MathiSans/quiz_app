@@ -6,3 +6,7 @@ card {
   display: flex;
   flex-direction: column;
 }
+
+card.dark {
+  background: #2a5238;
+}
