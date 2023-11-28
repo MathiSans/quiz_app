@@ -1,12 +1,8 @@
-card {
-  background: #56a979;
+.card {
+  background: var(--card-background);
   border-radius: 15px;
   margin-top: 30px;
   max-width: 360px;
   display: flex;
   flex-direction: column;
-}
-
-card.dark {
-  background: #2a5238;
 }
