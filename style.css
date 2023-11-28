@@ -1,11 +1,8 @@
 @import "global.css";
 @import "components/answer/answer-button.css";
-@import "components/answer/answer.css";
 @import "components/bookmarks/bookmarks.css";
 @import "components/cards/cards.css";
 @import "components/header/header.css";
 @import "components/icons/icons.css";
 @import "components/navbar/navbar.css";
 @import "components/questions/questions.css";
-@import "components/tags/tag-box.css";
-@import "components/tags/tags.css";
