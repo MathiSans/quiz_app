@@ -1,4 +1,4 @@
-nav {
+.navigation {
   background: #2a5238;
   width: 100%;
   padding: 10px 0;
@@ -7,6 +7,17 @@ nav {
   position: fixed;
   display: flex;
   justify-content: center;
-  align-items: center;
   z-index: 1;
+}
+
+.navigation__link {
+  border: none;
+  background: transparent;
+  padding: 0 30px;
+  display: flex;
+  /* Why is display: flex neccessairy again to center the nav links? */
+}
+
+.navigation__link--active {
+  /* background: #f2ffe8; */
 }

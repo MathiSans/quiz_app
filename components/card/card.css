@@ -1,10 +1,12 @@
-.card__background {
-  background: var(--card-background);
-  border-radius: 15px;
-  margin-top: 30px;
-  max-width: 360px;
-  display: flex;
-  flex-direction: column;
+.card__question {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #f2ffe8;
+  background: #2a5238;
+  box-shadow: 0px 0px 20px -0.2px #2a5238;
+  border-radius: 8px;
+  margin: 5px 20px 5px 20px;
+  padding: 40px;
 }
 
 .card__button-answer {
@@ -51,4 +53,13 @@
   border-radius: 10px;
   margin-right: 8px;
   padding: 3px 8px;
+}
+
+.card__background {
+  background: var(--card-background);
+  border-radius: 15px;
+  margin-top: 30px;
+  max-width: 360px;
+  display: flex;
+  flex-direction: column;
 }
