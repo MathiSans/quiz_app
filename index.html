@@ -14,21 +14,33 @@
     </header>
 
     <main>
-      <nav>
-        <a href="index.html" class="icon" aria-label="homepage">
+      <nav class="navigation">
+        <a
+          href="index.html"
+          class="navigation__link navigation__link--active"
+          aria-label="got to homepage"
+        >
           <img src="assets/home-simple-door.svg" aria-label="home icon" />
         </a>
 
-        <a href="bookmarks.html" class="icon" aria-label="saved bookmarks">
+        <a
+          href="bookmarks.html"
+          class="navigation__link navigation__link--active"
+          aria-label="got to saved bookmarks page"
+        >
           <img src="assets/bookmark_icon.svg" aria-label="bookmark icon" />
         </a>
 
-        <a href="profile.html" class="icon" aria-label="user profile">
+        <a
+          href="profile.html"
+          class="navigation__link navigation__link--active"
+          aria-label="go to profile page"
+        >
           <img src="assets/profile-circle.svg" aria-label="user icon" />
         </a>
 
         <button
-          class="icon toggle"
+          class="navigation__link navigation__link--active"
           data-js="toggleButton"
           aria-label="dark mode toggle"
         >
@@ -45,62 +57,72 @@
           aria-label="toggle bookmark"
         />
 
-        <p class="question">What property flips the axis in flexbox?</p>
+        <p class="card__question">What property flips the axis in flexbox?</p>
         <button
-          class="answer-button"
-          alt="answer-button"
+          class="card__button-answer"
+          aria-label="show answer"
           data-js="answer-button"
         >
           Show Answer
         </button>
-        <p class="answer">flex-direction</p>
+        <p class="card__answer">flex-direction</p>
 
-        <ul class="tag-box">
-          <li class="tags">#html</li>
-          <li class="tags">#flexbox</li>
-          <li class="tags">#css</li>
+        <ul class="card__tag-list">
+          <li class="card__tag-list-item">#html</li>
+          <li class="card__tag-list-item">#flexbox</li>
+          <li class="card__tag-list-item">#css</li>
         </ul>
       </card>
 
       <card class="card__background">
-        <img src="assets/bookmark_button.svg" aria-label="toggle bookmark" />
+        <img
+          src="assets/bookmark_button.svg"
+          class="bookmark__button"
+          aria-label="toggle bookmark"
+        />
 
-        <p class="question">
+        <p class="card__question">
           Is <span>:hover</span> a selector or a pseudo-selector?
         </p>
         <button
-          class="answer-button"
-          alt="answer-button"
+          class="card__button-answer"
+          alt="show answer"
           data-js="answer-button"
         >
           Show Answer
         </button>
-        <p class="answer">pseudo-selector</p>
+        <p class="card__answer">pseudo-selector</p>
 
-        <ul class="tag-box">
-          <li class="tags">#css</li>
-          <li class="tags">#selector</li>
-          <li class="tags">#pseudo-selector</li>
+        <ul class="card__tag-list">
+          <li class="card__tag-list-item">#css</li>
+          <li class="card__tag-list-item">#selector</li>
+          <li class="card__tag-list-item">#pseudo-selector</li>
         </ul>
       </card>
 
       <card class="card__background">
-        <img src="assets/bookmark_button.svg" aria-label="toggle bookmark" />
+        <img
+          src="assets/bookmark_button.svg"
+          class="bookmark__button"
+          aria-label="toggle bookmark"
+        />
 
-        <p class="question">Is :hover a selector or a pseudo-selector?</p>
+        <p class="card__question">
+          Is <span>:hover</span> a selector or a pseudo-selector?
+        </p>
         <button
-          class="answer-button"
-          alt="answer-button"
+          class="card__button-answer"
+          alt="show answer"
           data-js="answer-button"
         >
           Show Answer
         </button>
-        <p class="answer">pseudo-selector</p>
+        <p class="card__answer">pseudo-selector</p>
 
-        <ul class="tag-box">
-          <li class="tags">#css</li>
-          <li class="tags">#selector</li>
-          <li class="tags">#pseudo-selector</li>
+        <ul class="card__tag-list">
+          <li class="card__tag-list-item">#css</li>
+          <li class="card__tag-list-item">#selector</li>
+          <li class="card__tag-list-item">#pseudo-selector</li>
         </ul>
       </card>
     </main>
