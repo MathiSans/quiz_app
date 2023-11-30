@@ -30,18 +30,6 @@ main {
   margin-bottom: 85px;
 }
 
-ul {
-  padding: 8px;
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-}
-
 span {
   font-style: italic;
 }
-
-/* path {
-  fill: #f2ffe8;
-  stroke: #f2ffe8;
-} */

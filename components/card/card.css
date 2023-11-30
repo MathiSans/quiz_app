@@ -40,11 +40,13 @@
 }
 
 .card__tag-list {
+  padding: 8px;
   display: flex;
   justify-content: flex-start;
 }
 
 .card__tag-list-item {
+  list-style-type: none;
   font-size: 0.8rem;
   font-style: italic;
   color: #1e8449;
